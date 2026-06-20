@@ -83,3 +83,5 @@ Código de ejemplo para importar los productos
   var json = await File.ReadAllTextAsync("products.json");
   var products = JsonSerializer.Deserialize<List<Product>>(json);
   ```
+Perez Silva Iriel 58088
+Gutierrez Maia 60348
